@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--宽度设置为match_parent，高度设置为actionBar 的高度，背景色设置为colorPrimary在styles.xml中将程序的主题指定成了浅色主题，因此Toolbar现在也是浅色主题，
+    那么Toolbar上面的各种元素就会自动使用深色系，从而和主体颜色区别开。但是之前使用ActionBar时文字都是白色的，现在变成黑色的会很难看。那么为了能让Toolbar单独使用深色主题，
+    这里我们使用了android:theme 属性，将Toolbar的主题指定成了ThemeOverlay.AppCompat.Dark.ActionBar。但是这样指定之后又会出现新的问题，如果Toolbar中有菜单按钮（我们在3.2.5小节中学过），
+    那么弹出的菜单项也会变成深色主题，这样就再次变得十分难看了，于是这里又使用了app:popupTheme属性，单独将弹出的菜单项指定成了浅色主题。-->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/purple_500"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
+</FrameLayout>

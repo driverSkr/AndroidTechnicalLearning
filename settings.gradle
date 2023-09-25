@@ -1,0 +1,29 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "ComponentsTest"
+include ':app'
+include ':Notification'
+include ':CameraAlbum'
+include ':Audio'
+include ':Video'
+include ':FoundationControls'
+include ':Internet'
+include ':Jetpack'
+include ':AdvancedSkill'
+include ':Service'
+include ':BroadcastReceiver'
+include ':ContentProvider'
+include ':PersonalDefinitionView'
+include ':Kotlin'

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">广播接收者</string>
+
+    <string name="active_register">动态注册广播接受者</string>
+    <string name="send_order_broadcast">发送有序广播</string>
+    <string name="send_standard_broadcast">发送标准广播</string>
+    <string name="login">登录模拟</string>
+    <string name="forced_down_line">强制下线</string>
+</resources>

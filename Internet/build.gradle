@@ -1,0 +1,49 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    compileSdk 32
+
+    defaultConfig {
+        applicationId "com.example.internet"
+        minSdk 28
+        targetSdk 32
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+
+    implementation 'androidx.appcompat:appcompat:1.3.0'
+    implementation 'com.google.android.material:material:1.4.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+    /*OkHttp 库的依赖*/
+    implementation 'com.squareup.okhttp3:okhttp:4.1.0'
+    /*GSON依赖包*/
+    implementation 'com.google.code.gson:gson:2.8.5'
+    /*Retrofit依赖库*/
+    //由于Retrofit是基于OkHttp开发的，因此添加如下第一条依赖会自动将Retrofit 、OkHttp 和Okio这几个库一起下载，我们无须再手动引入OkHttp 库
+    implementation 'com.squareup.retrofit2:retrofit:2.6.1'
+    //Retrofit 还会将服务器返回的JSON数据自动解析成对象
+    //借助GSON来解析JSON数据的，所以会自动将GSON库一起下载下来，这样我们也不用手动引入GSON库了
+    //Retrofit 还支持各种其他主流的JSON解析库，包括Jackson 、Moshi 等
+    implementation 'com.squareup.retrofit2:converter-gson:2.6.1'
+}

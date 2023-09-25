@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/AdvancedSkill/src/main/res/layout/activity_intent_serializable.xml" value="0.225" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/AdvancedSkill/src/main/res/layout/activity_main.xml" value="0.225" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/AdvancedSkill/src/main/res/layout/activity_runtime_permission.xml" value="0.22083333333333333" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/BroadcastReceiver/src/main/res/layout/activity_forced_down_line.xml" value="0.22395833333333334" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/BroadcastReceiver/src/main/res/layout/activity_login.xml" value="0.22083333333333333" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/BroadcastReceiver/src/main/res/layout/activity_main.xml" value="0.225" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/BroadcastReceiver/src/main/res/layout/activity_send_order_broadcast.xml" value="0.20833333333333334" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/BroadcastReceiver/src/main/res/layout/activity_send_standard_broadcast.xml" value="0.22083333333333333" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/ContentProvider/src/main/res/layout/activity_read_system_contact.xml" value="0.22083333333333333" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/FoundationControls/src/main/res/drawable/tab_bg_selector.xml" value="0.1" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/FoundationControls/src/main/res/drawable/tab_first_selector.xml" value="0.1" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/FoundationControls/src/main/res/drawable/tab_second_selector.xml" value="0.1" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/FoundationControls/src/main/res/drawable/tab_text_selector.xml" value="0.1" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/FoundationControls/src/main/res/drawable/tab_third_selector.xml" value="0.1" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/FoundationControls/src/main/res/drawable/toolbar_text_selector.xml" value="0.1" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/FoundationControls/src/main/res/layout/activity_bottom_navigation.xml" value="0.225" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/FoundationControls/src/main/res/layout/activity_drawer_layout.xml" value="0.10696266397578204" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/FoundationControls/src/main/res/layout/activity_floating_action_button.xml" value="0.225" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/FoundationControls/src/main/res/layout/activity_frame_layout.xml" value="0.225" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/FoundationControls/src/main/res/layout/activity_fruit_details.xml" value="0.225" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/FoundationControls/src/main/res/layout/activity_main.xml" value="0.22395833333333334" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/FoundationControls/src/main/res/layout/activity_material_card_view.xml" value="0.2" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/FoundationControls/src/main/res/layout/activity_overflow_menu.xml" value="0.22395833333333334" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/FoundationControls/src/main/res/layout/activity_progress_bar.xml" value="0.1" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/FoundationControls/src/main/res/layout/activity_recycler_combine.xml" value="0.22395833333333334" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/FoundationControls/src/main/res/layout/activity_recycler_dynamic.xml" value="0.22395833333333334" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/FoundationControls/src/main/res/layout/activity_recycler_grid.xml" value="0.22083333333333333" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/FoundationControls/src/main/res/layout/activity_recycler_horizontal_view.xml" value="0.1" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/FoundationControls/src/main/res/layout/activity_recycler_linear.xml" value="0.22395833333333334" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/FoundationControls/src/main/res/layout/activity_recycler_staggered.xml" value="0.22395833333333334" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/FoundationControls/src/main/res/layout/activity_recycler_staggered_grid__view.xml" value="0.10696266397578204" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/FoundationControls/src/main/res/layout/activity_recycler_view.xml" value="0.22395833333333334" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/FoundationControls/src/main/res/layout/activity_swipe_recycler.xml" value="0.22395833333333334" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/FoundationControls/src/main/res/layout/activity_swipe_refresh_layout.xml" value="0.1" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/FoundationControls/src/main/res/layout/activity_tab_button.xml" value="0.1" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/FoundationControls/src/main/res/layout/activity_tab_layout.xml" value="0.1" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/FoundationControls/src/main/res/layout/activity_tab_pager.xml" value="0.1" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/FoundationControls/src/main/res/layout/activity_tool_bar.xml" value="0.1" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/FoundationControls/src/main/res/layout/activity_toolbar2.xml" value="0.1" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/FoundationControls/src/main/res/layout/activity_view_pager2_fragment.xml" value="0.22083333333333333" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/FoundationControls/src/main/res/layout/activity_view_pager2_recycler.xml" value="0.20729166666666668" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/FoundationControls/src/main/res/layout/activity_web_view.xml" value="0.225" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/FoundationControls/src/main/res/layout/fragment_book_cover.xml" value="0.1" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/FoundationControls/src/main/res/layout/fragment_book_detail.xml" value="0.1" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/FoundationControls/src/main/res/layout/fragment_dashboard.xml" value="0.1" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/FoundationControls/src/main/res/layout/fragment_home.xml" value="0.22083333333333333" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/FoundationControls/src/main/res/layout/fragment_tab_first.xml" value="0.11911231884057971" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/FoundationControls/src/main/res/layout/fragment_tab_second.xml" value="0.10847628657921292" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/FoundationControls/src/main/res/layout/fragment_tab_third.xml" value="0.10847628657921292" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/FoundationControls/src/main/res/layout/fruit_item.xml" value="0.1" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/FoundationControls/src/main/res/layout/fruit_item_recycle.xml" value="0.10090817356205853" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/FoundationControls/src/main/res/layout/fruit_item_recycler.xml" value="0.225" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/FoundationControls/src/main/res/layout/fruit_item_recycler_horizontal.xml" value="0.1" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/FoundationControls/src/main/res/layout/fruit_item_recycler_staggered_grid.xml" value="0.1" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/FoundationControls/src/main/res/layout/item_combine.xml" value="0.10797174571140263" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/FoundationControls/src/main/res/layout/item_grid.xml" value="0.10696266397578204" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/FoundationControls/src/main/res/layout/item_linear.xml" value="0.16" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/FoundationControls/src/main/res/layout/item_mobile.xml" value="0.10090817356205853" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/FoundationControls/src/main/res/layout/item_staggered.xml" value="0.10797174571140263" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/FoundationControls/src/main/res/layout/nav_header.xml" value="0.1" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/FoundationControls/src/main/res/menu/bottom_nav_menu.xml" value="0.1" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/FoundationControls/src/main/res/menu/menu_overflow.xml" value="0.16018518518518518" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/FoundationControls/src/main/res/menu/nav_menu.xml" value="0.21654749744637386" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/FoundationControls/src/main/res/menu/toolbar.xml" value="0.2" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/Internet/src/main/res/layout/activity_gson.xml" value="0.20729166666666668" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/Internet/src/main/res/layout/activity_http_urlconnection.xml" value="0.1057013118062563" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/Internet/src/main/res/layout/activity_jsonobject.xml" value="0.225" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/Internet/src/main/res/layout/activity_main.xml" value="0.20833333333333334" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/Internet/src/main/res/layout/activity_ok_http.xml" value="0.1585144927536232" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/Internet/src/main/res/layout/activity_pull_xmlactivity.xml" value="0.12454710144927536" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/Internet/src/main/res/layout/activity_retrofit.xml" value="0.1" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/Internet/src/main/res/layout/activity_saxfor_xmlactivity.xml" value="0.225" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/Internet/src/main/res/layout/activity_web_view.xml" value="0.264" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/Internet/src/main/res/xml/network_config.xml" value="0.14583333333333334" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/Jetpack/src/main/res/layout/activity_foundation_view_model.xml" value="0.225" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/Jetpack/src/main/res/layout/activity_live_data_view_model.xml" value="0.10847628657921292" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/Jetpack/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/Jetpack/src/main/res/layout/activity_parameters_view_model.xml" value="0.12047101449275362" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/Kotlin/src/main/res/layout/activity_main.xml" value="0.225" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/PersonalDefinitionView/src/main/res/drawable/editext_selector.xml" value="0.1" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/PersonalDefinitionView/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/PersonalDefinitionView/src/main/res/drawable/indicator_selector.xml" value="0.1" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/PersonalDefinitionView/src/main/res/drawable/selector_discover.xml" value="0.1" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/PersonalDefinitionView/src/main/res/drawable/selector_home.xml" value="0.1" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/PersonalDefinitionView/src/main/res/drawable/selector_menu_text_color.xml" value="0.1" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/PersonalDefinitionView/src/main/res/drawable/selector_mine.xml" value="0.1" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/PersonalDefinitionView/src/main/res/drawable/selector_nearby.xml" value="0.1" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/PersonalDefinitionView/src/main/res/drawable/selector_order.xml" value="0.1" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/PersonalDefinitionView/src/main/res/drawable/shape_edit_focus.xml" value="0.1" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/PersonalDefinitionView/src/main/res/drawable/shape_edit_normal.xml" value="0.1" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/PersonalDefinitionView/src/main/res/drawable/shape_white.xml" value="0.1" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/PersonalDefinitionView/src/main/res/layout/activity_banner_pager.xml" value="0.20416666666666666" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/PersonalDefinitionView/src/main/res/layout/activity_custom_bottom_tab.xml" value="0.20416666666666666" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/PersonalDefinitionView/src/main/res/layout/activity_draw_relative.xml" value="0.225" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/PersonalDefinitionView/src/main/res/layout/activity_float_notice.xml" value="0.1" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/PersonalDefinitionView/src/main/res/layout/activity_foreground_service.xml" value="0.1" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/PersonalDefinitionView/src/main/res/layout/activity_handler_post.xml" value="0.1" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/PersonalDefinitionView/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/PersonalDefinitionView/src/main/res/layout/activity_noscroll_list.xml" value="0.1" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/PersonalDefinitionView/src/main/res/layout/activity_notify_channel.xml" value="0.1" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/PersonalDefinitionView/src/main/res/layout/activity_notify_counter.xml" value="0.1" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/PersonalDefinitionView/src/main/res/layout/activity_notify_simple.xml" value="0.10696266397578204" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/PersonalDefinitionView/src/main/res/layout/activity_pie_animation.xml" value="0.22395833333333334" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/PersonalDefinitionView/src/main/res/layout/activity_show_draw.xml" value="0.1" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/PersonalDefinitionView/src/main/res/layout/activity_view_invalidate.xml" value="0.1" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/PersonalDefinitionView/src/main/res/layout/banner_pager.xml" value="0.1" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/PersonalDefinitionView/src/main/res/layout/float_notice.xml" value="0.2" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/PersonalDefinitionView/src/main/res/layout/item_list.xml" value="0.1" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/PersonalDefinitionView/src/main/res/layout/item_select.xml" value="0.1" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/PersonalDefinitionView/src/main/res/layout/title.xml" value="0.16" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/PersonalDefinitionView/src/main/res/layout/widget_custom_bottom_tab.xml" value="0.10797174571140263" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/Service/src/main/res/layout/activity_front_desk.xml" value="0.20833333333333334" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/Service/src/main/res/layout/activity_intent_service.xml" value="0.16847826086956522" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/Service/src/main/res/layout/activity_main.xml" value="0.225" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/Service/src/main/res/layout/activity_on_bind.xml" value="0.11639492753623189" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/Service/src/main/res/layout/activity_service.xml" value="0.22395833333333334" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/app/src/main/res/drawable/add_button_style.xml" value="0.2105" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/app/src/main/res/drawable/button_style.xml" value="0.2105" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/app/src/main/res/layout/activity_apn_setting.xml" value="0.125" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/app/src/main/res/layout/activity_file_clear.xml" value="0.225" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/app/src/main/res/layout/activity_get_storage_path.xml" value="0.225" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/app/src/main/res/layout/activity_ip_config.xml" value="0.225" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/app/src/main/res/layout/activity_loop_playback.xml" value="0.225" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/app/src/main/res/layout/activity_main.xml" value="0.225" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/app/src/main/res/layout/activity_recycle_add_delete.xml" value="0.20833333333333334" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/app/src/main/res/layout/activity_wifi_list.xml" value="0.225" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/app/src/main/res/layout/add_delete_item.xml" value="0.22395833333333334" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/audio/src/main/res/layout/activity_play_audio.xml" value="0.14402173913043478" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/cameraalbum/src/main/res/layout/activity_take_picture.xml" value="0.21822916666666667" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/notification/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/notification/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/notification/src/main/res/layout/activity_important_notification.xml" value="0.1" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/notification/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/notification/src/main/res/layout/activity_notification.xml" value="0.21105072463768115" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/video/src/main/res/layout/activity_media_controller_video.xml" value="0.225" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/video/src/main/res/layout/activity_play_video.xml" value="0.16" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/video/src/main/res/layout/activity_video_dialog.xml" value="0.225" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/video/src/main/res/layout/activity_video_dialog_control2.xml" value="0.225" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/video/src/main/res/layout/dialog_video_player.xml" value="0.225" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/video/src/main/res/layout/dialog_video_player_seebar.xml" value="0.225" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

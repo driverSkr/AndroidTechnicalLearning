@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--从Android9.0 系统开始，应用程序默认只允许使用HTTPS类型的网络请求，HTTP类型的网络请求因为有安全隐患默认不再被支持，
+    而我们搭建的Apache 服务器现在使用的就是HTTP。那么为了能让程序使用HTTP，我们还要进行如下配置才可以-->
+<network-security-config>
+    <!--这段配置文件的意思就是允许我们以明文的方式在网络上传输数据，而HTTP使用的就是明文传输方式。-->
+    <base-config cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+</network-security-config>

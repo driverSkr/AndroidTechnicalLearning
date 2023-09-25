@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ComponentsTest" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+    <!--这个我喜欢-->
+    <style name="Theme.ComponentsTest" parent="Base.Theme.ComponentsTest" />
+
+    <!-- 将AppTheme的parent主题指定成了Theme.AppCompat.DayNight.NoActionBar，这是一种DayNight主题. -->
+    <!--因此，在普通情况下MaterialT est 项目仍然会使用浅色主题，和之前并没有什么区别，但是一旦用户在系统设置
+中开启了深色主题，MaterialTest 项目就会自动使用相应的深色主题-->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+</resources>

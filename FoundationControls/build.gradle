@@ -1,0 +1,62 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+}
+
+android {
+    compileSdk 32
+
+    defaultConfig {
+        applicationId "com.example.foundationcontrols"
+        minSdk 28
+        targetSdk 32
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    buildFeatures {
+        viewBinding true
+    }
+}
+
+dependencies {
+
+    implementation 'androidx.appcompat:appcompat:1.3.0'
+    implementation 'com.google.android.material:material:1.4.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.3.1'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1'
+    /*标签导航库navigation*/
+    implementation 'androidx.navigation:navigation-fragment:2.3.5'
+    implementation 'androidx.navigation:navigation-ui:2.3.5'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+
+    /*Material库,实现Material Design设计风格*/
+    /*implementation 'com.google.android.material:material:1.1.0'*/
+    implementation 'com.google.android.material:material:1.5.0'
+    /*一个开源项目CircleImageView，它可以用来轻松实现图片圆形化的功能*/
+    implementation 'de.hdodenhof:circleimageview:3.0.1'
+    /*Glide 库的依赖。*/
+    /*Glide 是一个超级强大的开源图片加载库，它不仅可以用于加载本地图片，还可以加载网络图片、GIF图片甚至是本地视频。最
+    重要的是，Glide的用法非常简单，只需几行代码就能轻松实现复杂的图片加载功能，因此这里我们准备用它来加载水果图片*/
+    implementation 'com.github.bumptech.glide:glide:4.9.0'
+    /*SwipeRefreshLayout 就是用于实现下拉刷新功能的核心类*/
+    implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.0.0'
+    /*RecyclerView依赖库*/
+    implementation "androidx.recyclerview:recyclerview:1.2.1"
+
+}

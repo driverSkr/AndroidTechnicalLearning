@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--底部标签栏状态选择图-->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true" android:drawable="@drawable/tab_bg_selected" />
+    <item android:drawable="@drawable/tab_bg_normal"/>
+</selector>
