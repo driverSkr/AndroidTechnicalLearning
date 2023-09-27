@@ -17,10 +17,23 @@ fun main() {
     val student = Student("Java",19)
     val phone = CellphoneJava("华为",5999.0);
     println("${phone.brand} 现在起售价为 ${phone.price}")
-    //doStudy(student)
+    doStudy(null)
 }
 
-fun doStudy(study: Study){
-    study.readBooks()
-    study.doHomework()
+//设置可为空参数
+fun doStudy(study: Study?){
+    //基础写法
+    if (study != null){
+        study.readBooks()
+        study.doHomework()
+    }
+    //?.操作符改写
+    study?.readBooks()
+    study?.doHomework()
+
+    //?.和let函数一起使用
+    study?.let {
+        it.readBooks()
+        it.doHomework()
+    }
 }
