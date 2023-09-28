@@ -3,6 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/Activity/src/main/res/layout/activity_first.xml" value="0.22395833333333334" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/Activity/src/main/res/layout/activity_main.xml" value="0.22395833333333334" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/Activity/src/main/res/layout/activity_second.xml" value="0.14402173913043478" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/Activity/src/main/res/layout/activity_third.xml" value="0.14402173913043478" />
         <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/AdvancedSkill/src/main/res/layout/activity_intent_serializable.xml" value="0.225" />
         <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/AdvancedSkill/src/main/res/layout/activity_main.xml" value="0.225" />
         <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/AdvancedSkill/src/main/res/layout/activity_runtime_permission.xml" value="0.22083333333333333" />
@@ -81,7 +85,11 @@
         <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/Jetpack/src/main/res/layout/activity_live_data_view_model.xml" value="0.10847628657921292" />
         <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/Jetpack/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/Jetpack/src/main/res/layout/activity_parameters_view_model.xml" value="0.12047101449275362" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/Kotlin/src/main/res/layout/activity_alert_dialog.xml" value="0.22083333333333333" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/Kotlin/src/main/res/layout/activity_chat_interface.xml" value="0.1" />
         <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/Kotlin/src/main/res/layout/activity_main.xml" value="0.225" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/Kotlin/src/main/res/layout/msg_left_item.xml" value="0.10847628657921292" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/Kotlin/src/main/res/layout/msg_right_item.xml" value="0.10797174571140263" />
         <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/PersonalDefinitionView/src/main/res/drawable/editext_selector.xml" value="0.1" />
         <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/PersonalDefinitionView/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
         <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/PersonalDefinitionView/src/main/res/drawable/indicator_selector.xml" value="0.1" />

@@ -1,4 +1,4 @@
-package com.example.learnKotlin.learn
+package com.example.learnKotlin.chapter2
 
 data class Cellphone(val brand: String,val price: Double)
 

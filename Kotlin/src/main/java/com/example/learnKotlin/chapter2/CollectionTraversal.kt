@@ -1,4 +1,4 @@
-package com.example.learnKotlin.learn
+package com.example.learnKotlin.chapter2
 
 //集合遍历
 fun main(){

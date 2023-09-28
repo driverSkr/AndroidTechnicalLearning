@@ -1,6 +1,8 @@
-package com.example.learnKotlin.learn;
+package com.example.learnKotlin.chapter2;
 
 import androidx.annotation.NonNull;
+
+import com.example.learnKotlin.chapter3.StandardFunctionKt;
 
 import java.util.Objects;
 

@@ -1,4 +1,4 @@
-package com.example.learnKotlin.learn;
+package com.example.learnKotlin.chapter2;
 
 //Java版本的单例类
 public class SingletonJava {

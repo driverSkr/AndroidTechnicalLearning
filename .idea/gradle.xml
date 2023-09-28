@@ -11,6 +11,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Activity" />
             <option value="$PROJECT_DIR$/AdvancedSkill" />
             <option value="$PROJECT_DIR$/Audio" />
             <option value="$PROJECT_DIR$/BroadcastReceiver" />

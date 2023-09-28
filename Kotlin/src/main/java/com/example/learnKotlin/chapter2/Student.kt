@@ -1,4 +1,4 @@
-package com.example.learnKotlin.learn
+package com.example.learnKotlin.chapter2
 
 //要让Student类继承Person类。在Java中继承的关键字是extends，而在Kotlin中变成了一个冒号
 class Student(name: String,age: Int) : Person(name, age), Study {

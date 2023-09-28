@@ -1,4 +1,4 @@
-package com.example.learnKotlin.learn
+package com.example.learnKotlin.chapter2
 
 //面向对象：创建一个类
 /*一个类默认是不可以被继承的（类似java中的final），只有加了open关键字后才可以被继承*/

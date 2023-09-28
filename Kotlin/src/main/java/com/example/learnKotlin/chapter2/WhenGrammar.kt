@@ -1,4 +1,4 @@
-package com.example.learnKotlin.learn
+package com.example.learnKotlin.chapter2
 
 //Kotlin中的when语句有点类似于Java 中的switch语句，但它又远比switch语句强大得多
 fun main(){

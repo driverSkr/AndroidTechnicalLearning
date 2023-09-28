@@ -1,4 +1,4 @@
-package com.example.learnKotlin.learn
+package com.example.learnKotlin.chapter2
 
 //while循环不管是在语法还是使用技巧上都和Java 中的while循环没有任何区别
 fun main(){

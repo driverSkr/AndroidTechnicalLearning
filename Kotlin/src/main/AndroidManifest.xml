@@ -9,8 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ComponentsTest">
+
         <activity
-            android:name="com.example.learnKotlin.MainActivity"
+            android:name="com.example.learnKotlin.chapter4.ChatInterfaceActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Kotlin</string>
+    <string name="chatTip">Type something here</string>
+    <string name="send">Send</string>
 </resources>
