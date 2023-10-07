@@ -9,9 +9,29 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ComponentsTest">
-
+        <activity
+            android:name=".NewsContentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SimpleNewsAppActivity"
+            android:exported="false" />
+        <activity
+            android:name=".QualifierActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DynamicAddActivity"
+            android:exported="false" />
+        <activity
+            android:name=".XmlAddFragmentActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.learnKotlin.chapter4.AlertDialogActivity"
+            android:exported="false" />
         <activity
             android:name="com.example.learnKotlin.chapter4.ChatInterfaceActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.learnKotlin.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
