@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.Kotlin.R
 import com.example.learnKotlin.chapter5.fragment.NewsContentFragment
+import kotlinx.android.synthetic.main.activity_news_content.*
 
 class NewsContentActivity : AppCompatActivity() {
 
@@ -23,6 +24,11 @@ class NewsContentActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_news_content)
 
-        val title = intent.getShortExtra("news_title")
+        val title = intent.getStringExtra("news_title") // 获取传入的新闻标题
+        val content = intent.getStringExtra("news_content") // 获取传入的新闻内容
+        if (title != null && content != null){
+            val fragment = newsContentFrag as NewsContentFragment
+            fragment.refresh(title, content) //刷新NewsContentFragment界面
+        }
     }
 }

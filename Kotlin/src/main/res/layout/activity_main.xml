@@ -66,15 +66,75 @@
             android:layout_height="match_parent"
             android:text="使用限定符展示资源文件"
             android:textAllCaps="false"
-            android:layout_marginRight="2dp"/>
+            android:layout_marginRight="3dp"/>
         <Button
-
+            android:id="@+id/simple_news"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="match_parent"
-            android:text="动态添加Fragment"
+            android:text="简易版新闻应用（兼容手机模式和平板模式）"
             android:textAllCaps="false"
             android:layout_marginLeft="3dp"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="第6章广播接收者"
+        android:gravity="center"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/time_change"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="动态注册监听时间变化"
+            android:textAllCaps="false"
+            android:layout_marginRight="3dp"/>
+        <Button
+            android:id="@+id/boot_complete"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="静态注册实现开机启动"
+            android:textAllCaps="false"
+            android:layout_marginLeft="3dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/send_standard"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="发送标准广播"
+            android:textAllCaps="false"
+            android:layout_marginRight="3dp"/>
+        <Button
+            android:id="@+id/send_order"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="发送有序广播"
+            android:textAllCaps="false"
+            android:layout_marginLeft="3dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/login"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="最佳实战：强制下线"
+            android:textAllCaps="false"
+            />
     </LinearLayout>
 
 </LinearLayout>

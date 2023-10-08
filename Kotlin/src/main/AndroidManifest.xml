@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.Kotlin">
 
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -10,19 +12,62 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ComponentsTest">
         <activity
-            android:name=".NewsContentActivity"
+            android:name="com.example.learnKotlin.chapter6.ForcedDownlineActivity"
             android:exported="false" />
         <activity
-            android:name=".SimpleNewsAppActivity"
+            android:name="com.example.learnKotlin.chapter6.LoginActivity"
             android:exported="false" />
         <activity
-            android:name=".QualifierActivity"
+            android:name="com.example.learnKotlin.chapter6.SendOrderBroadcastActivity"
+            android:exported="false" />
+
+        <receiver
+            android:name="com.example.learnKotlin.chapter6.broadcast.AnotherBroadcastReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.example.broadcasttest.MY_BROADCAST" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.example.learnKotlin.chapter6.SendStandardBroadcastActivity"
+            android:exported="false" />
+
+        <receiver
+            android:name="com.example.learnKotlin.chapter6.broadcast.MyBroadcastReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter android:priority="100">
+                <action android:name="com.example.broadcasttest.MY_BROADCAST" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.example.learnKotlin.chapter6.broadcast.BootCompleteReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.example.learnKotlin.chapter6.TimeChangeActivity"
             android:exported="false" />
         <activity
-            android:name=".DynamicAddActivity"
+            android:name="com.example.learnKotlin.chapter5.NewsMainActivity"
             android:exported="false" />
         <activity
-            android:name=".XmlAddFragmentActivity"
+            android:name="com.example.learnKotlin.chapter5.NewsContentActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.learnKotlin.chapter5.QualifierActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.learnKotlin.chapter5.DynamicAddActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.learnKotlin.chapter5.XmlAddFragmentActivity"
             android:exported="false" />
         <activity
             android:name="com.example.learnKotlin.chapter4.AlertDialogActivity"
