@@ -12,6 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ComponentsTest">
         <activity
+            android:name=".RememberPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SharedPreferencesStorageReadActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FileStorageReadActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.learnKotlin.chapter6.ForcedDownlineActivity"
             android:exported="false" />
         <activity

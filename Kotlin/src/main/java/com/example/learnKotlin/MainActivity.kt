@@ -16,8 +16,9 @@ import com.example.learnKotlin.chapter6.SendOrderBroadcastActivity
 import com.example.learnKotlin.chapter6.SendStandardBroadcastActivity
 import com.example.learnKotlin.chapter6.TimeChangeActivity
 import com.example.learnKotlin.chapter6.broadcast.BootCompleteReceiver
+import com.example.learnKotlin.chapter7.FileStorageReadActivity
+import com.example.learnKotlin.chapter7.SharedPreferencesStorageReadActivity
 import kotlinx.android.synthetic.main.activity_main.*
-import kotlinx.android.synthetic.main.activity_main.view.*
 
 class MainActivity : AppCompatActivity(), View.OnClickListener {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -35,6 +36,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         send_order.setOnClickListener(this)
         send_standard.setOnClickListener(this)
         login.setOnClickListener(this)
+        file_storage.setOnClickListener(this)
+        shared_preferences.setOnClickListener(this)
     }
 
     override fun onClick(v: View?) {
@@ -50,6 +53,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             R.id.send_standard -> startActivity(Intent(this,SendStandardBroadcastActivity::class.java))
             R.id.send_order -> startActivity(Intent(this,SendOrderBroadcastActivity::class.java))
             R.id.login -> startActivity(Intent(this,LoginActivity::class.java))
+            R.id.file_storage -> startActivity(Intent(this,FileStorageReadActivity::class.java))
+            R.id.shared_preferences -> startActivity(Intent(this,SharedPreferencesStorageReadActivity::class.java))
         }
     }
 }
