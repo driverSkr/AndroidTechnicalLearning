@@ -12,13 +12,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ComponentsTest">
         <activity
-            android:name=".RememberPasswordActivity"
+            android:name="com.example.learnKotlin.chapter7.SQLiteOpenHelperActivity"
             android:exported="false" />
         <activity
-            android:name=".SharedPreferencesStorageReadActivity"
+            android:name="com.example.learnKotlin.chapter7.RememberPasswordActivity"
             android:exported="false" />
         <activity
-            android:name=".FileStorageReadActivity"
+            android:name="com.example.learnKotlin.chapter7.SharedPreferencesStorageReadActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.learnKotlin.chapter7.FileStorageReadActivity"
             android:exported="false" />
         <activity
             android:name="com.example.learnKotlin.chapter6.ForcedDownlineActivity"

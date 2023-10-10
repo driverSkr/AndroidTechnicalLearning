@@ -169,6 +169,27 @@
                     android:textAllCaps="false"
                     android:layout_marginLeft="3dp"/>
             </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/sqlite_open_helper"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:text="数据库帮助器SQLiteOpenHelper"
+                    android:textAllCaps="false"
+                    android:layout_marginRight="3dp"/>
+                <Button
+
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:text="共享参数的存储和读取"
+                    android:textAllCaps="false"
+                    android:layout_marginLeft="3dp"/>
+            </LinearLayout>
         </LinearLayout>
     </ScrollView>
 </LinearLayout>
