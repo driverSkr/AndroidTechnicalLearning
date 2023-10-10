@@ -182,13 +182,26 @@
                     android:textAllCaps="false"
                     android:layout_marginRight="3dp"/>
                 <Button
-
+                    android:id="@+id/standard_helper"
                     android:layout_width="0dp"
                     android:layout_weight="1"
                     android:layout_height="match_parent"
-                    android:text="共享参数的存储和读取"
+                    android:text="自定义数据库帮助器"
                     android:textAllCaps="false"
                     android:layout_marginLeft="3dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/room"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:text="使用Room操作数据库"
+                    android:textAllCaps="false"
+                    android:layout_marginRight="3dp"/>
             </LinearLayout>
         </LinearLayout>
     </ScrollView>

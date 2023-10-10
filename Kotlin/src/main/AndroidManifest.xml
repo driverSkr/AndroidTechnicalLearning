@@ -3,6 +3,8 @@
     package="com.example.Kotlin">
 
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <!--拨打电话-->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
 
     <application
         android:allowBackup="true"
@@ -11,6 +13,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ComponentsTest">
+        <activity
+            android:name="com.example.learnKotlin.chapter8.CallPhoneActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.learnKotlin.chapter7.RoomActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.learnKotlin.chapter7.StandardDatabaseHelperActivity"
+            android:exported="false" />
         <activity
             android:name="com.example.learnKotlin.chapter7.SQLiteOpenHelperActivity"
             android:exported="false" />

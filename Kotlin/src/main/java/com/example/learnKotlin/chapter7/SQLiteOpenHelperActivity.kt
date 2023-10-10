@@ -18,7 +18,9 @@ import java.lang.Exception
 /*创建数据库、添加数据、更新数据、删除数据、查询数据*/
 class SQLiteOpenHelperActivity : AppCompatActivity() {
 
-    private val TAG = "SQLiteOpenHelperActivity"
+    companion object{
+        private const val TAG = "SQLiteOpenHelperActivity"
+    }
 
     @SuppressLint("Range")
     override fun onCreate(savedInstanceState: Bundle?) {

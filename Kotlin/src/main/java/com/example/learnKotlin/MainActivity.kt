@@ -16,9 +16,7 @@ import com.example.learnKotlin.chapter6.SendOrderBroadcastActivity
 import com.example.learnKotlin.chapter6.SendStandardBroadcastActivity
 import com.example.learnKotlin.chapter6.TimeChangeActivity
 import com.example.learnKotlin.chapter6.broadcast.BootCompleteReceiver
-import com.example.learnKotlin.chapter7.FileStorageReadActivity
-import com.example.learnKotlin.chapter7.SQLiteOpenHelperActivity
-import com.example.learnKotlin.chapter7.SharedPreferencesStorageReadActivity
+import com.example.learnKotlin.chapter7.*
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity(), View.OnClickListener {
@@ -40,6 +38,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         file_storage.setOnClickListener(this)
         shared_preferences.setOnClickListener(this)
         sqlite_open_helper.setOnClickListener(this)
+        standard_helper.setOnClickListener(this)
+        room.setOnClickListener(this)
     }
 
     override fun onClick(v: View?) {
@@ -58,6 +58,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             R.id.file_storage -> startActivity(Intent(this,FileStorageReadActivity::class.java))
             R.id.shared_preferences -> startActivity(Intent(this,SharedPreferencesStorageReadActivity::class.java))
             R.id.sqlite_open_helper -> startActivity(Intent(this, SQLiteOpenHelperActivity::class.java))
+            R.id.standard_helper -> startActivity(Intent(this, StandardDatabaseHelperActivity::class.java))
+            R.id.room -> startActivity(Intent(this, RoomActivity::class.java))
         }
     }
 }
