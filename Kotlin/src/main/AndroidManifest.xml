@@ -14,7 +14,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ComponentsTest">
         <activity
-            android:name="com.example.learnKotlin.chapter8.CallPhoneActivity"
+            android:name="com.example.learnKotlin.chapter8.RuntimePermissionsActivity"
             android:exported="false" />
         <activity
             android:name="com.example.learnKotlin.chapter7.RoomActivity"

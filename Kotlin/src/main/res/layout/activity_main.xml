@@ -86,7 +86,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="第6章广播接收者"
+                android:text="第6章广播接收者BroadcastReceiver"
                 android:gravity="center"/>
             <LinearLayout
                 android:layout_width="match_parent"
@@ -202,6 +202,31 @@
                     android:text="使用Room操作数据库"
                     android:textAllCaps="false"
                     android:layout_marginRight="3dp"/>
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="第8章内容提供者ContentProvider"
+                android:gravity="center"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/runtime_permission"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:text="运行时权限申请"
+                    android:textAllCaps="false"
+                    android:layout_marginRight="3dp"/>
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:text="自定义数据库帮助器"
+                    android:textAllCaps="false"
+                    android:layout_marginLeft="3dp"/>
             </LinearLayout>
         </LinearLayout>
     </ScrollView>
