@@ -28,7 +28,8 @@ class MyDatabaseHelper(val context: Context,name: String,version: Int):
     override fun onCreate(db: SQLiteDatabase?) {
         db?.execSQL(createBook)
         db?.execSQL(createCategory)
-        Toast.makeText(context,"Create succeeded",Toast.LENGTH_SHORT).show()
+        //跨程序访问时不能直接使用Toast
+        //Toast.makeText(context,"Create succeeded",Toast.LENGTH_SHORT).show()
     }
 
     /*想新增一张表，需要在onUpgrade中删除原存在的表，并重新执行onCreate*/

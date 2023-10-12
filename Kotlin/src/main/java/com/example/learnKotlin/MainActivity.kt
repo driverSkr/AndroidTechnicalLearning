@@ -1,9 +1,11 @@
 package com.example.learnKotlin
 
 import android.content.Intent
+import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import android.view.Window
 import com.example.Kotlin.R
 import com.example.learnKotlin.chapter4.AlertDialogActivity
 import com.example.learnKotlin.chapter4.ChatInterfaceActivity
@@ -17,11 +19,15 @@ import com.example.learnKotlin.chapter6.SendStandardBroadcastActivity
 import com.example.learnKotlin.chapter6.TimeChangeActivity
 import com.example.learnKotlin.chapter6.broadcast.BootCompleteReceiver
 import com.example.learnKotlin.chapter7.*
+import com.example.learnKotlin.chapter8.ReadSystemContactActivity
 import com.example.learnKotlin.chapter8.RuntimePermissionsActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity(), View.OnClickListener {
     override fun onCreate(savedInstanceState: Bundle?) {
+        val decorView = window.decorView
+        decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
+        window.statusBarColor = Color.TRANSPARENT
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
@@ -42,6 +48,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         standard_helper.setOnClickListener(this)
         room.setOnClickListener(this)
         runtime_permission.setOnClickListener(this)
+        read_system_contact.setOnClickListener(this)
     }
 
     override fun onClick(v: View?) {
@@ -63,6 +70,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             R.id.standard_helper -> startActivity(Intent(this, StandardDatabaseHelperActivity::class.java))
             R.id.room -> startActivity(Intent(this, RoomActivity::class.java))
             R.id.runtime_permission -> startActivity(Intent(this, RuntimePermissionsActivity::class.java))
+            R.id.read_system_contact -> startActivity(Intent(this, ReadSystemContactActivity::class.java))
         }
     }
 }

@@ -3,7 +3,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="5dp">
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="15dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="《第一行代码》（第3版）"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"/>
 
     <ScrollView
         android:layout_width="match_parent"
@@ -221,10 +232,11 @@
                     android:textAllCaps="false"
                     android:layout_marginRight="3dp"/>
                 <Button
+                    android:id="@+id/read_system_contact"
                     android:layout_width="0dp"
                     android:layout_weight="1"
                     android:layout_height="match_parent"
-                    android:text="自定义数据库帮助器"
+                    android:text="读取系统通讯录"
                     android:textAllCaps="false"
                     android:layout_marginLeft="3dp"/>
             </LinearLayout>
