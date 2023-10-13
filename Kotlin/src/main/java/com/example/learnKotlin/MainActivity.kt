@@ -21,6 +21,9 @@ import com.example.learnKotlin.chapter6.broadcast.BootCompleteReceiver
 import com.example.learnKotlin.chapter7.*
 import com.example.learnKotlin.chapter8.ReadSystemContactActivity
 import com.example.learnKotlin.chapter8.RuntimePermissionsActivity
+import com.example.learnKotlin.chapter9.CallCameraPhotosActivity
+import com.example.learnKotlin.chapter9.MediaPlayerActivity
+import com.example.learnKotlin.chapter9.VideoViewActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity(), View.OnClickListener {
@@ -49,6 +52,9 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         room.setOnClickListener(this)
         runtime_permission.setOnClickListener(this)
         read_system_contact.setOnClickListener(this)
+        call_camera_photos.setOnClickListener(this)
+        media_player.setOnClickListener(this)
+        video_view.setOnClickListener(this)
     }
 
     override fun onClick(v: View?) {
@@ -71,6 +77,9 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             R.id.room -> startActivity(Intent(this, RoomActivity::class.java))
             R.id.runtime_permission -> startActivity(Intent(this, RuntimePermissionsActivity::class.java))
             R.id.read_system_contact -> startActivity(Intent(this, ReadSystemContactActivity::class.java))
+            R.id.call_camera_photos -> startActivity(Intent(this, CallCameraPhotosActivity::class.java))
+            R.id.media_player -> startActivity(Intent(this, MediaPlayerActivity::class.java))
+            R.id.video_view -> startActivity(Intent(this, VideoViewActivity::class.java))
         }
     }
 }

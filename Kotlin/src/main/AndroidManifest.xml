@@ -13,11 +13,32 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ComponentsTest">
+        <activity
+            android:name="com.example.learnKotlin.chapter9.VideoViewActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.learnKotlin.chapter9.MediaPlayerActivity"
+            android:exported="false" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.example.cameraalbumtest.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <activity
+            android:name="com.example.learnKotlin.chapter9.CallCameraPhotosActivity"
+            android:exported="false" />
+
         <provider
             android:name="com.example.learnKotlin.chapter8.provider.DatabaseProvider"
             android:authorities="com.example.learnKotlin.chapter8"
             android:enabled="true"
-            android:exported="true"/>
+            android:exported="true" />
 
         <activity
             android:name="com.example.learnKotlin.chapter8.ReadSystemContactActivity"
