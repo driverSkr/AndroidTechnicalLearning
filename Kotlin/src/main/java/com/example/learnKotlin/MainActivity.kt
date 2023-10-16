@@ -7,6 +7,8 @@ import android.os.Bundle
 import android.view.View
 import android.view.Window
 import com.example.Kotlin.R
+import com.example.learnKotlin.chapter12.ToolbarActivity
+import com.example.learnKotlin.chapter13.CounterActivity
 import com.example.learnKotlin.chapter4.AlertDialogActivity
 import com.example.learnKotlin.chapter4.ChatInterfaceActivity
 import com.example.learnKotlin.chapter5.DynamicAddActivity
@@ -55,6 +57,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         call_camera_photos.setOnClickListener(this)
         media_player.setOnClickListener(this)
         video_view.setOnClickListener(this)
+        toolbar.setOnClickListener(this)
+        counter.setOnClickListener(this)
     }
 
     override fun onClick(v: View?) {
@@ -80,6 +84,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             R.id.call_camera_photos -> startActivity(Intent(this, CallCameraPhotosActivity::class.java))
             R.id.media_player -> startActivity(Intent(this, MediaPlayerActivity::class.java))
             R.id.video_view -> startActivity(Intent(this, VideoViewActivity::class.java))
+            R.id.toolbar -> startActivity(Intent(this,ToolbarActivity::class.java))
+            R.id.counter -> startActivity(Intent(this,CounterActivity::class.java))
         }
     }
 }

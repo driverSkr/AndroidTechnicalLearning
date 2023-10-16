@@ -14,6 +14,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ComponentsTest">
         <activity
+            android:name="com.example.learnKotlin.chapter13.CounterActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.learnKotlin.chapter12.ToolbarActivity"
+            android:exported="false"
+            android:label="Toolbar" />
+        <activity
             android:name="com.example.learnKotlin.chapter9.VideoViewActivity"
             android:exported="false" />
         <activity
