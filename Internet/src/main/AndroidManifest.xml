@@ -12,7 +12,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
+        <activity
+            android:name=".EyeOpeningActivity"
+            android:exported="false" />
         <activity
             android:name=".AnalyzingJSON.GsonActivity"
             android:exported="false" />

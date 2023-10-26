@@ -48,6 +48,14 @@ public class Music {
         return new Music(imageArray[musicIdIndex],nameArray[musicNameIndex]);
     }
 
+    @Override
+    public String toString() {
+        return "Music{" +
+                "musicId=" + musicId +
+                ", musicName='" + musicName + '\'' +
+                '}';
+    }
+
     private static final int[] imageArray = {R.drawable.thumb01,R.drawable.thumb02,R.drawable.thumb03,R.drawable.thumb04,R.drawable.thumb05,
             R.drawable.thumb06,R.drawable.thumb07,R.drawable.thumb08,R.drawable.thumb09,R.drawable.thumb10,R.drawable.thumb11,
             R.drawable.thumb12,R.drawable.thumb13,R.drawable.thumb14,R.drawable.thumb15,R.drawable.thumb16,R.drawable.thumb17,

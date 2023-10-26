@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.btn_okhttp).setOnClickListener(this);
         findViewById(R.id.btn_retrofit).setOnClickListener(this);
         findViewById(R.id.btn_webView).setOnClickListener(this);
+        findViewById(R.id.btn_eyeOpening).setOnClickListener(this);
     }
 
     @Override
@@ -57,6 +58,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.btn_webView:
                 startActivity(new Intent(this, WebViewActivity.class));
                 break;
+            case R.id.btn_eyeOpening:
+                startActivity(new Intent(this,EyeOpeningActivity.class));
         }
     }
 }

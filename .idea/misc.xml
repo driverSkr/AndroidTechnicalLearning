@@ -71,6 +71,7 @@
         <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/FoundationControls/src/main/res/menu/menu_overflow.xml" value="0.16018518518518518" />
         <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/FoundationControls/src/main/res/menu/nav_menu.xml" value="0.21654749744637386" />
         <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/FoundationControls/src/main/res/menu/toolbar.xml" value="0.2" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/Internet/src/main/res/layout/activity_eye_opening.xml" value="0.264" />
         <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/Internet/src/main/res/layout/activity_gson.xml" value="0.20729166666666668" />
         <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/Internet/src/main/res/layout/activity_http_urlconnection.xml" value="0.1057013118062563" />
         <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/Internet/src/main/res/layout/activity_jsonobject.xml" value="0.225" />
@@ -105,6 +106,7 @@
         <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/Kotlin/src/main/res/layout/activity_qualifier.xml" value="0.22395833333333334" />
         <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/Kotlin/src/main/res/layout/activity_read_system_contact.xml" value="0.22395833333333334" />
         <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/Kotlin/src/main/res/layout/activity_remember_password.xml" value="0.22083333333333333" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/Kotlin/src/main/res/layout/activity_retrofit.xml" value="0.22135416666666666" />
         <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/Kotlin/src/main/res/layout/activity_room.xml" value="0.1" />
         <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/Kotlin/src/main/res/layout/activity_send_order_broadcast.xml" value="0.22395833333333334" />
         <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/Kotlin/src/main/res/layout/activity_send_standard_broadcast.xml" value="0.22395833333333334" />
@@ -167,10 +169,13 @@
         <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/app/src/main/res/layout/activity_file_clear.xml" value="0.225" />
         <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/app/src/main/res/layout/activity_get_storage_path.xml" value="0.225" />
         <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/app/src/main/res/layout/activity_ip_config.xml" value="0.225" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/app/src/main/res/layout/activity_java_test.xml" value="0.225" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/app/src/main/res/layout/activity_java_text.xml" value="0.225" />
         <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/app/src/main/res/layout/activity_loop_playback.xml" value="0.225" />
         <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/app/src/main/res/layout/activity_main.xml" value="0.225" />
         <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/app/src/main/res/layout/activity_provider_test.xml" value="0.20729166666666668" />
         <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/app/src/main/res/layout/activity_recycle_add_delete.xml" value="0.20833333333333334" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/app/src/main/res/layout/activity_tts.xml" value="0.264" />
         <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/app/src/main/res/layout/activity_wifi_list.xml" value="0.225" />
         <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/app/src/main/res/layout/add_delete_item.xml" value="0.22395833333333334" />
         <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/audio/src/main/res/layout/activity_play_audio.xml" value="0.14402173913043478" />

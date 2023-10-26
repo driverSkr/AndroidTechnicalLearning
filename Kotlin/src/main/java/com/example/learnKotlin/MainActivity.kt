@@ -7,6 +7,7 @@ import android.os.Bundle
 import android.view.View
 import android.view.Window
 import com.example.Kotlin.R
+import com.example.learnKotlin.chapter11.RetrofitActivity
 import com.example.learnKotlin.chapter12.ToolbarActivity
 import com.example.learnKotlin.chapter13.CounterActivity
 import com.example.learnKotlin.chapter4.AlertDialogActivity
@@ -59,6 +60,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         video_view.setOnClickListener(this)
         toolbar.setOnClickListener(this)
         counter.setOnClickListener(this)
+        retrofit.setOnClickListener(this)
     }
 
     override fun onClick(v: View?) {
@@ -86,6 +88,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             R.id.video_view -> startActivity(Intent(this, VideoViewActivity::class.java))
             R.id.toolbar -> startActivity(Intent(this,ToolbarActivity::class.java))
             R.id.counter -> startActivity(Intent(this,CounterActivity::class.java))
+            R.id.retrofit -> startActivity(Intent(this,RetrofitActivity::class.java))
         }
     }
 }

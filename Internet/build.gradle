@@ -1,5 +1,7 @@
 plugins {
     id 'com.android.application'
+    id 'kotlin-parcelize'
+    id 'org.jetbrains.kotlin.android'
 }
 
 android {
@@ -25,6 +27,9 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+    buildFeatures {
+        viewBinding = true
+    }
 }
 
 dependencies {
@@ -46,4 +51,7 @@ dependencies {
     //借助GSON来解析JSON数据的，所以会自动将GSON库一起下载下来，这样我们也不用手动引入GSON库了
     //Retrofit 还支持各种其他主流的JSON解析库，包括Jackson 、Moshi 等
     implementation 'com.squareup.retrofit2:converter-gson:2.6.1'
+    /*协程*/
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4'
 }

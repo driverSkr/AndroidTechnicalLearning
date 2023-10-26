@@ -34,7 +34,7 @@ Observable、Flowable等类型，不过这些内容就不在此的讨论范围�
 
     //二、GET http://example.com/get_data.json?u=<user>&t=<token>
         /*这是一种标准的带参数GET请求的格式。接口地址的最后使用问号来连接参数部分，每个参数都是一个使用等号连接的键值对，多个参数之间使用“&”符号进行分隔。那么很显然，在上述地址中，服务器要求我们传入user和token这两个参数的值。
-        对于这种格式的服务器接口，我们可以使用刚才所学的@Path注解的方式来解决，但是这样会有些麻烦，Retr ofit 针对这种带参数的GET请求，专门提供了一种语法支持：*/
+        对于这种格式的服务器接口，我们可以使用刚才所学的@Path注解的方式来解决，但是这样会有些麻烦，Retrofit 针对这种带参数的GET请求，专门提供了一种语法支持：*/
     @GET("get_data.json")
     Call<Data> getData(@Query("u") String user,@Query("t") String token);
 
