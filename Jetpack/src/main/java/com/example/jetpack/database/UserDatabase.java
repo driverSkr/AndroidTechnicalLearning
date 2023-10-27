@@ -21,7 +21,7 @@ import com.example.jetpack.entity.User;
 //entities表示该数据库有哪些表，version表示数据库的版本号
 //exportSchema表示是否导出数据库信息的json串，建议设为false，
 //              若设为true还需指定json文件的保存路径(写在了Module的build.gradle的defaultConfig{}里)
-@Database(version = 1,entities = {User.class/*, Book.class*/})
+@Database(version = 1,entities = {User.class/*, Book.class*/},exportSchema = false)
 public abstract class UserDatabase extends RoomDatabase {
 
    //只需要进行方法声明就可以了，具体的方法实现是由Room 在底层自动完成的

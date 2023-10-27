@@ -11,7 +11,7 @@ import com.example.learnKotlin.chapter7.dao.UserDao
 import com.example.learnKotlin.chapter7.entity.Book
 import com.example.learnKotlin.chapter7.entity.User
 
-@Database(version = 3, entities = [User::class, Book::class])
+@Database(version = 3, entities = [User::class, Book::class],exportSchema = false)
 abstract class AppDatabase: RoomDatabase() {
 
     abstract fun userDao(): UserDao

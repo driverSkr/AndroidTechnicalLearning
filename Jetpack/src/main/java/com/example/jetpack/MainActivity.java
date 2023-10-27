@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.btn_room).setOnClickListener(this);
         findViewById(R.id.btn_WorkManager).setOnClickListener(this);
         findViewById(R.id.btn_WorkManager_complex).setOnClickListener(this);
+        findViewById(R.id.flow_basic).setOnClickListener(this);
     }
 
     @Override
@@ -47,6 +48,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.btn_WorkManager_complex:
                 startActivity(new Intent(this,WorkManagerComplexActivity.class));
+                break;
+            case R.id.flow_basic:
+                startActivity(new Intent(this,FlowBasicActivity.class));
                 break;
         }
     }

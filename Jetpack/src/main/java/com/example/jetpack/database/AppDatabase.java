@@ -14,7 +14,7 @@ import com.example.jetpack.dao.UserDao;
 import com.example.jetpack.entity.Book;
 import com.example.jetpack.entity.User;
 
-@Database(version = 2,entities = {User.class, Book.class})
+@Database(version = 2,entities = {User.class, Book.class},exportSchema = false)
 public abstract class AppDatabase extends RoomDatabase {
 
     //只需要进行方法声明就可以了，具体的方法实现是由Room 在底层自动完成的

@@ -1,14 +1,15 @@
 plugins {
     id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
 }
 
 android {
-    compileSdk 32
+    compileSdk 33
 
     defaultConfig {
         applicationId "com.example.jetpack"
         minSdk 28
-        targetSdk 32
+        targetSdk 33
         versionCode 1
         versionName "1.0"
 
@@ -39,7 +40,17 @@ dependencies {
     implementation "androidx.lifecycle:lifecycle-extensions:2.2.0"
     /*Room库依赖*/
     implementation 'androidx.room:room-runtime:2.3.0'
-    annotationProcessor 'androidx.room:room-compiler:2.2.5'
+    annotationProcessor 'androidx.room:room-compiler:2.3.0'
     /*WorkManager依赖库*/
-    implementation "androidx.work:work-runtime:2.2.0"
+    implementation "androidx.work:work-runtime:2.5.0"
+
+/*Flow相关依赖*/
+    //kotlin协程库
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.1"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.1"
+    //提供协程作用域（lifecycleScope和viewModelScope）
+    implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.5.1'
+    //ktx的扩展库（不是必须，简化代码）
+    implementation "androidx.activity:activity-ktx:1.6.0"
+    implementation "androidx.fragment:fragment-ktx:1.5.3"
 }
