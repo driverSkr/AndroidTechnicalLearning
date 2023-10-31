@@ -1,10 +1,7 @@
 package com.example.jetpack.utils
 
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.FlowPreview
-import kotlinx.coroutines.delay
+import kotlinx.coroutines.*
 import kotlinx.coroutines.flow.*
-import kotlinx.coroutines.runBlocking
 
 /**
  * Flow的操作符函数
@@ -19,7 +16,17 @@ fun main(){
         //onEachFun()
         //debounceFun()
         //sampleFun()
-        reduceFun()
+        //reduceFun()
+        //foldFun()
+        //flatMapConcatFun()
+        //orderConcat()
+        //disorderedMerge()
+        //flatMapLatestFun()
+        //zipFun()
+        //zipParallelFun()
+        //coastTimeFun()
+        //bufferFun()
+        conflateFun()
     }
 }
 
@@ -47,8 +54,12 @@ suspend fun filterFun(){
 //collect函数中打印出的是最终的结果。如果你想要查看某个中间状态时flow的数据状态，借助onEach就非常有用了
 suspend fun onEachFun(){
     runBlocking {
-        flow.onEach {
+        flow.filter {
+            it % 2 == 0
+        }.onEach {
             println(it)
+        }.map {
+            it * it
         }.collect {
         }
     }
@@ -68,8 +79,8 @@ suspend fun debounceFun(){
             delay(100)
             emit(5)
         }.debounce(500).collect{
-                println(it)
-            }
+            println(it)
+        }
     }
 }
 
@@ -100,4 +111,172 @@ suspend fun reduceFun(){
         println(result)
     }
 }
+
+/** 7.fold 和reduce函数基本上是完全类似的**/
+suspend fun foldFun(){
+    runBlocking {
+        val result = flow {
+            for (i in ('A' .. 'Z')) {
+                emit(i.toString())
+            }
+        }.fold("Alphabet：") { acc, value -> acc + value }
+        println(result)
+    }
+}
+
+/** 8.flatMapConcat**/
+suspend fun flatMapConcatFun(){
+    runBlocking {
+        flowOf(1,2,3)
+            .flatMapConcat {
+                flowOf("a$it","b$it")
+            }
+            .collect {
+                println(it)
+            }
+    }
+}
+
+/** 验证flatMapConcat的循序性**/
+@OptIn(FlowPreview::class)
+suspend fun orderConcat(){
+    runBlocking {
+        flowOf(300,200,100)
+            .flatMapConcat {
+                flow {
+                    delay(it.toLong())
+                    emit("a$it")
+                    emit("b$it")
+                }
+            }.collect {
+                println(it)
+            }
+    }
+}
+
+/** 9.验证flatMapMerge的并发性（无序）**/
+suspend fun disorderedMerge(){
+    runBlocking {
+        flowOf(300,200,100)
+            .flatMapMerge {
+                flow {
+                    delay(it.toLong())
+                    emit("a$it")
+                    emit("b$it")
+                }
+            }.collect {
+                println(it)
+            }
+    }
+}
+
+/** 10.flatMapLatest **/
+@OptIn(ExperimentalCoroutinesApi::class)
+suspend fun flatMapLatestFun() {
+    flow {
+        emit(1)
+        delay(150)
+        emit(2)
+        delay(50)
+        emit(3)
+    }.flatMapLatest {
+        flow {
+            delay(100)
+            emit("$it")
+        }
+    }.collect {
+        println(it)
+    }
+}
+
+/** 11.zip**/
+suspend fun zipFun() {
+    runBlocking {
+        val flow1 = flowOf("a","b","c")
+        val flow2 = flowOf(1,2,3,4,5)
+        flow1.zip(flow2) { a,b ->
+            a + b
+        }.collect {
+            println(it)
+        }
+    }
+}
+
+/** 验证zip是并行运行的**/
+suspend fun zipParallelFun() {
+    runBlocking {
+        val start = System.currentTimeMillis()
+        val flow1 = flow {
+            delay(3000)
+            emit("a")
+        }
+        val flow2 = flow {
+            delay(2000)
+            emit(1)
+        }
+        flow1.zip(flow2) { a, b ->
+            a + b
+        }.collect {
+            val end = System.currentTimeMillis()
+            println("Time cost: ${end - start}ms")
+        }
+    }
+}
+
+suspend fun coastTimeFun() {
+    runBlocking {
+        flow {
+            emit(1)
+            delay(1000)
+            emit(2)
+            delay(1000)
+            emit(3)
+        }.onEach {
+            println("$it is ready")
+        }.collect {
+            delay(1000)
+            println("$it is handled")
+        }
+    }
+}
+
+/** 12.buffer **/
+suspend fun bufferFun() {
+    runBlocking {
+        flow {
+            emit(1)
+            delay(1000)
+            emit(2)
+            delay(1000)
+            emit(3)
+        }.onEach {
+            println("$it is ready")
+        }.buffer()
+        .collect {
+            delay(1000)
+            println("$it is handled")
+        }
+    }
+}
+
+/** 13.conflate**/
+suspend fun conflateFun(){
+    runBlocking {
+        flow {
+            var count = 0
+            while (true) {
+                emit(count)
+                delay(1000)
+                count ++
+            }
+        }.conflate()
+        .collect{
+            println("start handle $it")
+            delay(2000)
+            println("finish handle $it")
+        }
+    }
+}
+
+
 
