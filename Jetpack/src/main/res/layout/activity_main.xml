@@ -146,13 +146,13 @@
                     android:layout_marginRight="3dp"
                     android:text="Flow的基本用法"/>
                 <Button
-
+                    android:id="@+id/state_flow_basic"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:textAllCaps="false"
                     android:layout_weight="1"
                     android:layout_marginLeft="2dp"
-                    android:text="任务"/>
+                    android:text="StateFlow的基本用法"/>
             </LinearLayout>
         </LinearLayout>
     </ScrollView>
