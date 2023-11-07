@@ -1,10 +1,11 @@
-package com.example.advancedskill;
+package com.example.advancedskill.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 
+import com.example.advancedskill.R;
 import com.example.advancedskill.entity.Person;
 import com.example.advancedskill.test.SecondActivity;
 

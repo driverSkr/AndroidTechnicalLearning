@@ -1,4 +1,4 @@
-package com.example.advancedskill;
+package com.example.advancedskill.activity;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -11,6 +11,8 @@ import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Bundle;
 import android.widget.Toast;
+
+import com.example.advancedskill.R;
 
 //运行时申请权限
 /*Android 开发团队在Android 6.0 系统中引入了运行时权限这个功能，从而更好地保护了用户的安全和隐私*/
@@ -59,7 +61,7 @@ public class RuntimePermissionActivity extends AppCompatActivity {
     private void call(){
         try {
             Intent intent = new Intent(Intent.ACTION_CALL);
-            intent.setData(Uri.parse("tel:10086"));
+            intent.setData(Uri.parse("tel:17607016172"));
             startActivity(intent);
         }catch (SecurityException e){
             e.printStackTrace();

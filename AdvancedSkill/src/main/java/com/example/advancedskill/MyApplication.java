@@ -1,4 +1,4 @@
-package com.example.advancedskill.application;
+package com.example.advancedskill;
 
 import android.annotation.SuppressLint;
 import android.app.Application;

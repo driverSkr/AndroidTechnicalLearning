@@ -7,9 +7,13 @@
         <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/Activity/src/main/res/layout/activity_main.xml" value="0.22395833333333334" />
         <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/Activity/src/main/res/layout/activity_second.xml" value="0.14402173913043478" />
         <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/Activity/src/main/res/layout/activity_third.xml" value="0.14402173913043478" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/AdvancedSkill/src/main/res/layout/activity_first.xml" value="0.225" />
         <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/AdvancedSkill/src/main/res/layout/activity_intent_serializable.xml" value="0.225" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/AdvancedSkill/src/main/res/layout/activity_like_wechat_mini_programs.xml" value="0.225" />
         <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/AdvancedSkill/src/main/res/layout/activity_main.xml" value="0.225" />
         <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/AdvancedSkill/src/main/res/layout/activity_runtime_permission.xml" value="0.22083333333333333" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/AdvancedSkill/src/main/res/layout/activity_second.xml" value="0.225" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/AdvancedSkill/src/main/res/layout/activity_third.xml" value="0.20833333333333334" />
         <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/BroadcastReceiver/src/main/res/layout/activity_forced_down_line.xml" value="0.22395833333333334" />
         <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/BroadcastReceiver/src/main/res/layout/activity_login.xml" value="0.22083333333333333" />
         <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/BroadcastReceiver/src/main/res/layout/activity_main.xml" value="0.225" />
@@ -87,6 +91,7 @@
         <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/Jetpack/src/main/res/layout/activity_live_data_view_model.xml" value="0.10847628657921292" />
         <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/Jetpack/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/Jetpack/src/main/res/layout/activity_parameters_view_model.xml" value="0.12047101449275362" />
+        <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/Jetpack/src/main/res/layout/activity_room.xml" value="0.1" />
         <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/Jetpack/src/main/res/layout/activity_state_flow_basic.xml" value="0.22447916666666667" />
         <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/Kotlin/src/main/res/layout-large/activity_qualifier.xml" value="0.1" />
         <entry key="..\:/androidProject/boGeStudyDemo/ComponentsTest/Kotlin/src/main/res/layout-sw600dp/activity_news_main.xml" value="0.1" />
