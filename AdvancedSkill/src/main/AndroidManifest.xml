@@ -15,20 +15,23 @@
             android:name=".test.FirstActivity"
             android:exported="false"
             android:label="第一行代码"
-            android:launchModel="singleTask"
+            android:launchMode="singleTask"
             android:taskAffinity="com.example.advancedskill.activity.first"/>
         <activity
             android:name=".test.SecondActivity"
             android:exported="false"
             android:label="第二行代码"
-            android:launchModel="singleTask"
+            android:launchMode="singleTask"
             android:taskAffinity="com.example.advancedskill.activity.second"/>
         <activity
             android:name=".test.ThirdActivity"
             android:exported="false"
             android:label="第三行代码"
-            android:launchModel="singleTask"
+            android:launchMode="singleTask"
             android:taskAffinity="com.example.advancedskill.activity.third"/>
+        <activity
+            android:name=".activity.LikeWechatMiniProgramsActivity"
+            android:exported="false"/>
         <activity
             android:name=".MainActivity"
             android:exported="true">

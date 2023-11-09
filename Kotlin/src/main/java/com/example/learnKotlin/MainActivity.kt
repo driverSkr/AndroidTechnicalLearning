@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     override fun onCreate(savedInstanceState: Bundle?) {
         val decorView = window.decorView
         decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
-        window.statusBarColor = Color.TRANSPARENT
+        window.statusBarColor = Color.TRANSPARENT /**将系统的状态栏改成透明色**/
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 

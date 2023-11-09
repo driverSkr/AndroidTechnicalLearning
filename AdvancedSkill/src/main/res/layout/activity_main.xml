@@ -64,6 +64,23 @@
                     android:layout_height="wrap_content"
                     android:text="申请打电话权限"/>
             </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="仿微信小程序"
+                android:gravity="center"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/like_wechat_mini_programs"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="开启多任务栈"/>
+            </LinearLayout>
         </LinearLayout>
     </ScrollView>
 

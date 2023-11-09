@@ -7,6 +7,7 @@ import android.view.LayoutInflater
 import android.view.View
 import com.example.advancedskill.activity.IntentParcelableActivity
 import com.example.advancedskill.activity.IntentSerializableActivity
+import com.example.advancedskill.activity.LikeWechatMiniProgramsActivity
 import com.example.advancedskill.activity.RuntimePermissionActivity
 import com.example.advancedskill.databinding.ActivityMainBinding
 
@@ -24,6 +25,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         binding.intentParcelable.setOnClickListener(this)
         binding.intentSerializable.setOnClickListener(this)
         binding.runtimePermission.setOnClickListener(this)
+        binding.likeWechatMiniPrograms.setOnClickListener(this)
     }
 
     override fun onClick(v: View?) {
@@ -31,6 +33,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             R.id.intent_parcelable -> startActivity(Intent(this,IntentParcelableActivity::class.java))
             R.id.intent_serializable -> startActivity(Intent(this,IntentSerializableActivity::class.java))
             R.id.runtime_permission -> startActivity(Intent(this,RuntimePermissionActivity::class.java))
+            R.id.like_wechat_mini_programs -> startActivity(Intent(this,LikeWechatMiniProgramsActivity::class.java))
         }
     }
 
