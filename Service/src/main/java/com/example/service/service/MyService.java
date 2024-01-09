@@ -20,6 +20,9 @@ public class MyService extends Service {
             Log.d("MyService", "getProgress executed");
             return 0;
         }
+        public void printString(){
+            Log.d("MyService","你调用了printString()");
+        }
     }
 
     public MyService() {

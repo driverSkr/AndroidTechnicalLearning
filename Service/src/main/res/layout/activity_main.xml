@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="10dp">
-
+<!--内容是复制的-->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -36,14 +36,14 @@
                     android:id="@+id/intent_parcelable"
                     android:layout_width="0dp"
                     android:layout_weight="1"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:text="Parcelable实现方式"
                     android:layout_marginRight="3dp"/>
                 <Button
                     android:id="@+id/intent_serializable"
                     android:layout_width="0dp"
                     android:layout_weight="1"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:text="Serializable实现方式"
                     android:layout_marginLeft="2dp"/>
             </LinearLayout>
@@ -80,23 +80,6 @@
                     android:layout_weight="1"
                     android:layout_height="wrap_content"
                     android:text="开启多任务栈"/>
-            </LinearLayout>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="绑定服务BindService"
-                android:gravity="center"/>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-                <Button
-                    android:id="@+id/btn_bind_service"
-                    android:layout_width="0dp"
-                    android:layout_weight="1"
-                    android:layout_height="wrap_content"
-                    android:text="绑定服务"/>
             </LinearLayout>
         </LinearLayout>
     </ScrollView>

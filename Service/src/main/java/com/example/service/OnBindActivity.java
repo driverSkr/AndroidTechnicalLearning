@@ -46,11 +46,11 @@ public class OnBindActivity extends AppCompatActivity {
                 bindService(intent,connection, Context.BIND_AUTO_CREATE);// 绑定Service
             }
         });
-        findViewById(R.id.unbindServiceBtn).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                unbindService(connection);//解绑Service
+        findViewById(R.id.unbindServiceBtn).setOnClickListener(v -> {
+            if (downloadBinder != null) {
+                downloadBinder.printString();
             }
+            unbindService(connection);//解绑Service
         });
     }
 }

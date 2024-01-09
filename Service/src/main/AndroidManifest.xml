@@ -12,6 +12,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ComponentsTest">
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
 
         <service
             android:name=".service.FrontDeskService"
@@ -31,7 +34,7 @@
             android:name=".AsyncTaskActivity"
             android:exported="false" />
         <activity
-            android:name=".FrontDeskActivity"
+            android:name=".OnBindActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

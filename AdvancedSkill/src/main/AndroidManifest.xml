@@ -11,27 +11,35 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ComponentsTest">
+        <service
+            android:name=".service.BindService"
+            android:enabled="true"
+            android:exported="false"/>
+
+        <activity
+            android:name=".activity.BindServiceActivity"
+            android:exported="false" />
         <activity
             android:name=".test.FirstActivity"
             android:exported="false"
             android:label="第一行代码"
             android:launchMode="singleTask"
-            android:taskAffinity="com.example.advancedskill.activity.first"/>
+            android:taskAffinity="com.example.advancedskill.activity.first" />
         <activity
             android:name=".test.SecondActivity"
             android:exported="false"
             android:label="第二行代码"
             android:launchMode="singleTask"
-            android:taskAffinity="com.example.advancedskill.activity.second"/>
+            android:taskAffinity="com.example.advancedskill.activity.second" />
         <activity
             android:name=".test.ThirdActivity"
             android:exported="false"
             android:label="第三行代码"
             android:launchMode="singleTask"
-            android:taskAffinity="com.example.advancedskill.activity.third"/>
+            android:taskAffinity="com.example.advancedskill.activity.third" />
         <activity
             android:name=".activity.LikeWechatMiniProgramsActivity"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
