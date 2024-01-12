@@ -45,7 +45,7 @@
                     android:layout_weight="1"
                     android:layout_height="wrap_content"
                     android:text="Serializable实现方式"
-                    android:layout_marginLeft="2dp"/>
+                    android:layout_marginLeft="3dp"/>
             </LinearLayout>
 
             <TextView
@@ -97,6 +97,46 @@
                     android:layout_weight="1"
                     android:layout_height="wrap_content"
                     android:text="绑定服务"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Handler"
+                android:gravity="center"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/btn_timer"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:text="计数器"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_clock"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="3dp"
+                    android:layout_weight="1"
+                    android:text="时钟" />
+
+                <Button
+                    android:id="@+id/btn_news_scrolling"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:layout_weight="1"
+                    android:text="新闻滚动" />
             </LinearLayout>
         </LinearLayout>
     </ScrollView>
